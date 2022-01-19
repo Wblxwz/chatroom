@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtChatRoomClass</class>
+ <widget class="QMainWindow" name="QtChatRoomClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>787</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtChatRoom</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>当前IP：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="ltip"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>当前端口：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="ltdk"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>客户端口：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="kehuduan"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>在线用户：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="zaixianbox"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fasong4">
+         <property name="text">
+          <string>发送</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="shuaxin">
+         <property name="text">
+          <string>刷新</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="shangxian">
+         <property name="text">
+          <string>上线</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="xiaxian">
+         <property name="text">
+          <string>下线</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>消息列表：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="xiaoxikuang"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>消息：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="xiaoxijilu"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fasong">
+         <property name="text">
+          <string>发送消息</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>当前在线：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="zaixian">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="dqzx"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtChatRoom.qrc"/>
+ </resources>
+ <connections/>
+</ui>
